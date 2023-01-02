@@ -1,2 +1,2 @@
-# HackerRank
+#AlgorithmHack
 Practice Problems
