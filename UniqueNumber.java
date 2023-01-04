@@ -29,8 +29,8 @@ public class UniqueNumber{
             // 6 ^ 1 = 7 Return
             //
             //Therefore:
-            //      Zero XOR 'Number'= Answer 
-            //    Answer XOR 'Number' = ZERO
+            //      Zero XOR 'Number'= 'Number'
+            //    'Number' XOR 'Number' = ZERO
 
             int x = 0;
             for(int i = 0; i<a.size(); i++){
