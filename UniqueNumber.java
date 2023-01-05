@@ -3,8 +3,8 @@ import java.util.*;
 public class UniqueNumber{
     /**
      * @param args
+     * January 1, 2023
      * For a given array of repeated elements, EXACTELY one element is not repeated. 
-     * You need to return the non-repeated element.
      * Guaranteed that list will have only ONE unique number, all other numbers will have a match. 
      */
     public static void main (String[] args){
