@@ -2,8 +2,14 @@ import java.util.*;
 
 
 public class IndexListCountingSort {
-    public static List<Integer> countingSort(List<Integer> arr) {
-        // Write your code here
+    public static void main(String[ ]args)
+    {
+        ArrayList<Integer> arr = new ArrayList<>();
+        for (int i = 0; i < 100;  i++){
+            int num = (int)(Math.random()*100);
+            arr.add(i, num);
+            }
+        System.out.println(arr);
         Collections.sort(arr);
         System.out.println(arr);
         ArrayList<Integer> indexList = new ArrayList<Integer>();
@@ -18,6 +24,7 @@ public class IndexListCountingSort {
             int indexNumber = arr.get(k);
             indexList.set(indexNumber, indexList.get(indexNumber) + 1);
         }
-        return indexList;
+        System.out.println(indexList);
         }
-}
+    }
+
