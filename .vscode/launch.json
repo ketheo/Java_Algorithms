@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Launch ZigZagSort",
+            "request": "launch",
+            "mainClass": "ZigZagSort",
+            "projectName": "Java_Algorithms_7e14e5ae"
+        },
         {
             "type": "java",
             "name": "Launch Current File",
