@@ -1,2 +1,2 @@
-Java Algorithms
+Java Algorithms to manipulate data structures.
 
