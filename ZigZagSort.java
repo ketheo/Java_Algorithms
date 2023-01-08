@@ -1,5 +1,5 @@
 import java.util.*;
-
+// Sorts the list lexographically, orders last half of list in reverse order.
 public class ZigZagSort {
 
     public static void main (String[] args){
