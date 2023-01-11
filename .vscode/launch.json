@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CaesarCipher",
+            "request": "launch",
+            "mainClass": "CaesarCipher",
+            "projectName": "Java_Algorithms_7e14e5ae"
+        },
+        {
+            "type": "java",
             "name": "Launch ZigZagSort",
             "request": "launch",
             "mainClass": "ZigZagSort",
